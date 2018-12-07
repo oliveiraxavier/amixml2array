@@ -45,7 +45,7 @@ class AmiXml2Array
     }
     
     public  function curlStart(){
-        return \curl_init();
+        return curl_init();
     }
 
     /**    
