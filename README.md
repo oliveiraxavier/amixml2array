@@ -1,6 +1,6 @@
 # amixml2array
 
-Simple classe de conexão e comandos(actions) ami utilizando php.
+Simples classe de conexão e comandos(actions) ami utilizando php e github.
 
 Para habilitar , em manager.conf
 Ver mais em https://wiki.asterisk.org/wiki/display/AST/Allow+Manager+Access+via+HTTP
