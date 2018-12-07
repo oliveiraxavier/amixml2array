@@ -5,17 +5,25 @@ Simple classe de conexão e comandos(actions) ami utilizando php.
 Para habilitar , em manager.conf
 
 enabled = yes 
+
 webenabled = yes
+
 Observar a config permit 
+
 Ex liberar acesso para o ip 192.168.1.10
+
 permit = 192.168.1.10/255.255.255.0
 
 Usuário de exemplo em manager.conf
 
 [teste_asterisk]
+
 permit = 192.168.1.10/255.255.255.0
+
 secret = asterisk
+
 read = call,dialplan
+
 write = system,all
 
 Exemplos
