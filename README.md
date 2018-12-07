@@ -23,25 +23,41 @@ Exemplos
 $ami = new AmiXml2Array();
 
 Status dos sip peers
+
 //json
+
 print_r($ami->getSimpleAction('SIPpeers',true));
+
 //array
+
 print_r($ami->getSimpleAction('SIPpeers'));
 
 Status de todas as filas
+
 //json
+
  print_r($ami->getSimpleAction('QueueStatus',true));
+ 
 //array
+
 print_r($ami->getSimpleAction('QueueStatus'));
 
 Status da fila from fila_teste
+
 //json
+
 print_r($ami->getQueueStatusByName('fila_teste',true));
+
 //array
+
 print_r($ami->getQueueStatusByName('fila_teste'));
 
 Status do peer 11004
+
 //json
+
 print_r($ami->getSipStatusBySipPeer('11004',true));
+
 //array
+
 print_r($ami->getSipStatusBySipPeer('11004'));
