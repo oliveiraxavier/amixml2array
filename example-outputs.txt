@@ -1,0 +1,134 @@
+Saida de  print_r($ami->getSipStatusBySipPeer('11004',true));
+
+{
+   "response":"Success",
+   "channeltype":"SIP",
+   "objectname":"11004",
+   "chanobjecttype":"peer",
+   "secretexist":"Y",
+   "remotesecretexist":"N",
+   "md5secretexist":"N",
+   "context":"interno",
+   "language":"pt_BR",
+   "tonezone":"<Not set>",
+   "accountcode":"1",
+   "amaflags":"Unknown",
+   "cid_callingpres":"Presentation Allowed, Not Screened",
+   "callgroup":"",
+   "pickupgroup":"",
+   "named_callgroup":"",
+   "named_pickupgroup":"",
+   "mohsuggest":"",
+   "voicemailbox":"",
+   "transfermode":"open",
+   "lastmsgssent":"-1",
+   "maxforwards":"0",
+   "call_limit":"2147483647",
+   "busy_level":"0",
+   "maxcallbr":"384 kbps",
+   "dynamic":"Y",
+   "callerid":"\"Ramal 1004\" <1004>",
+   "regexpire":"1576 seconds",
+   "sip_authinsecure":"no",
+   "sip_forcerport":"a",
+   "sip_comedia":"N",
+   "acl":"N",
+   "sip_canreinvite":"Y",
+   "sip_directmedia":"Y",
+   "sip_promiscredir":"N",
+   "sip_userphone":"N",
+   "sip_videosupport":"N",
+   "sip_textsupport":"N",
+   "sip_t_38support":"N",
+   "sip_t_38ec":"Unknown",
+   "sip_t_38maxdtgrm":"4294967294",
+   "sip_sess_timers":"Accept",
+   "sip_sess_refresh":"uas",
+   "sip_sess_expires":"1800",
+   "sip_sess_min":"90",
+   "sip_rtp_engine":"asterisk",
+   "sip_encryption":"N",
+   "sip_rtcp_mux":"N",
+   "sip_dtmfmode":"auto",
+   "tohost":"",
+   "address_ip":"192.168.1.75",
+   "address_port":"5060",
+   "default_addr_ip":"(null)",
+   "default_addr_port":"0",
+   "default_username":"11004",
+   "codecs":"(ulaw|alaw|g729)",
+   "status":"OK (4 ms)",
+   "sip_useragent":"Twinkle\/1.10.1",
+   "reg_contact":"sip:11004@192.168.1.75",
+   "qualifyfreq":"60000 ms",
+   "parkinglot":"",
+   "sip_use_reason_header":"N",
+   "description":""
+}
+
+
+Saida de  print_r($ami->getSipStatusBySipPeer('11004'));
+
+    [response] => Success
+    [channeltype] => SIP
+    [objectname] => 11004
+    [chanobjecttype] => peer
+    [secretexist] => Y
+    [remotesecretexist] => N
+    [md5secretexist] => N
+    [context] => interno
+    [language] => pt_BR
+    [tonezone] => <Not set>
+    [accountcode] => 1
+    [amaflags] => Unknown
+    [cid_callingpres] => Presentation Allowed, Not Screened
+    [callgroup] => 
+    [pickupgroup] => 
+    [named_callgroup] => 
+    [named_pickupgroup] => 
+    [mohsuggest] => 
+    [voicemailbox] => 
+    [transfermode] => open
+    [lastmsgssent] => -1
+    [maxforwards] => 0
+    [call_limit] => 2147483647
+    [busy_level] => 0
+    [maxcallbr] => 384 kbps
+    [dynamic] => Y
+    [callerid] => "Ramal 1004" <1004>
+    [regexpire] => 1576 seconds
+    [sip_authinsecure] => no
+    [sip_forcerport] => a
+    [sip_comedia] => N
+    [acl] => N
+    [sip_canreinvite] => Y
+    [sip_directmedia] => Y
+    [sip_promiscredir] => N
+    [sip_userphone] => N
+    [sip_videosupport] => N
+    [sip_textsupport] => N
+    [sip_t_38support] => N
+    [sip_t_38ec] => Unknown
+    [sip_t_38maxdtgrm] => 4294967295
+    [sip_sess_timers] => Accept
+    [sip_sess_refresh] => uas
+    [sip_sess_expires] => 1800
+    [sip_sess_min] => 90
+    [sip_rtp_engine] => asterisk
+    [sip_encryption] => N
+    [sip_rtcp_mux] => N
+    [sip_dtmfmode] => auto
+    [tohost] => 
+    [address_ip] => 192.168.1.75
+    [address_port] => 5060
+    [default_addr_ip] => (null)
+    [default_addr_port] => 0
+    [default_username] => 11004
+    [codecs] => (ulaw|alaw|g729)
+    [status] => OK (4 ms)
+    [sip_useragent] => Twinkle/1.10.1
+    [reg_contact] => sip:11004@192.168.1.75
+    [qualifyfreq] => 60000 ms
+    [parkinglot] => 
+    [sip_use_reason_header] => N
+    [description] => 
