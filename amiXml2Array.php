@@ -31,8 +31,8 @@ class AmiXml2Array
         $this->curl         = $this->curlStart();
         $tempFile           = tmpfile();
         $this->pathTmpFile  = stream_get_meta_data($tempFile)['uri'];
-        $this->loginUrl     = '192.168.1.159:8088/mxml?action=login&username=teste_asterisk&secret=asterisk';
-        $this->globalUrl    = '192.168.1.159:8088/mxml?';
+        $this->loginUrl     = '192.168.1.10:8088/mxml?action=login&username=teste_asterisk&secret=asterisk';
+        $this->globalUrl    = '192.168.1.10:8088/mxml?';
         $this->options      =  [            
                                 CURLOPT_COOKIESESSION   => TRUE,
                                 CURLOPT_RETURNTRANSFER  => TRUE,
