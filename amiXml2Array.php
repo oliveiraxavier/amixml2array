@@ -140,9 +140,9 @@ class AmiXml2Array
         }
 
         if($object){
-            return  json_encode($nodes[0]);
+            return  json_encode($nodes);
         }
-        return $nodes[0];
+        return $nodes;
     }
 
     /**
@@ -172,9 +172,9 @@ class AmiXml2Array
         }
         
         if($object){
-            return  json_encode($nodes[0]);
+            return  json_encode($nodes);
         }
-        return $nodes[0];
+        return $nodes;
     }
 }
 
